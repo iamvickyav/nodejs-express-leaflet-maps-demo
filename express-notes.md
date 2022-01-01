@@ -1,12 +1,14 @@
 # Express.js Notes
 
-## Installation
+## Creating REST Endpoints using Express.js
+
+### Installation
 
 ```sh
 > npm install express
 ```
 
-## Creating Server in server.js
+### Creating Server in server.js
 
 ```js
 const express = require('express');
@@ -32,7 +34,7 @@ app.get("/", function(req, res) {
 app.listen(3000);
 ```
 
-## Creating Route in Different File
+### Creating Route in Different File
 
 ```js
 const express = require('express');
@@ -46,14 +48,20 @@ router.get("/", function(req, res) {
 module.exports = router;
 ```
 
-## Registering Route in server.js
+### Registering Route in server.js
 
 ```js
 app.use("/user", require("./user"));
 ```
 
-## Registering Static Content Folder
+### Registering Static Content Folder
 
 ```js
 app.use(express.static("public"))
 ```
+
+For More info, refer here - https://www.youtube.com/watch?v=SccSCuHhOw0&t=1068s&ab_channel=WebDevSimplified 
+
+## Express Session Management
+
+Refer here - https://www.section.io/engineering-education/session-management-in-nodejs-using-expressjs-and-express-session/
