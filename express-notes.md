@@ -62,6 +62,10 @@ app.use(express.static("public"))
 
 For More info, refer here - https://www.youtube.com/watch?v=SccSCuHhOw0&t=1068s&ab_channel=WebDevSimplified 
 
+## Express Middleware Management
+
+* [Express Middlware](https://www.youtube.com/watch?v=lY6icfhap2o&ab_channel=WebDevSimplified)
+
 ## Express Session Management
 
 Refer here - https://www.section.io/engineering-education/session-management-in-nodejs-using-expressjs-and-express-session/
