@@ -71,6 +71,8 @@
     </div>
 ```
 
+## style.css for all pages
+
 ```css
 body {
   background-image: url('elec.jpeg');
@@ -93,6 +95,7 @@ form {
 ### Store Locator
 
 ```html
+<body>
 <div class="container">
         <h3>Our Stores spread across the country</h3>
         <div class="row">
@@ -110,6 +113,8 @@ form {
     <script src="script.js"></script>
 </body>
 ```
+
+### Client side Javascript to load Map
 
 ```js
 async function init() {
