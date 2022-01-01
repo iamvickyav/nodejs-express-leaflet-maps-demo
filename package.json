@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-express-leaflet-maps-demo",
+  "version": "1.0.0",
+  "description": "my first node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamvickyav/nodejs-express-leaflet-maps-demo.git"
+  },
+  "author": "Vicky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamvickyav/nodejs-express-leaflet-maps-demo/issues"
+  },
+  "homepage": "https://github.com/iamvickyav/nodejs-express-leaflet-maps-demo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}

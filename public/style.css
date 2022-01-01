@@ -1,0 +1,15 @@
+body {
+  background-image: url('elec.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+form {
+  background-color: rgb(145, 139, 139);
+  padding: 30px 30px;
+  border-radius: 27px;
+}
+#map {
+  height: 500px;
+}
